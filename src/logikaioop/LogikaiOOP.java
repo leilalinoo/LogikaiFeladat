@@ -12,7 +12,7 @@ public class LogikaiOOP {
         kiir("Az 2. állítás!");
         kiir("Az 3. állítás!");
         kiir("Melyik: ");
-        valasz =   sc.nextLine();
+        valasz = sc.nextLine();
         kiir(valasz);
         kiir("A válasz jó | rossz");
     }
