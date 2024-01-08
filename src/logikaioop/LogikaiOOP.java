@@ -1,19 +1,20 @@
 package logikaioop;
 
-import java.util.Scanner;
 
 public class LogikaiOOP {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+       
         String valasz;
+        Allitas a1 = new Allitas("1 alma van");
+        Allitas a2 = new Allitas("2 alma van");
+        Allitas a3 = new Allitas("3 alma van");
         kiir("Leírás");
-        kiir("Az 1. állítás!");
-        kiir("Az 2. állítás!");
-        kiir("Az 3. állítás!");
+        kiir("Az 1. állítás!"+a1);
+        kiir("Az 2. állítás!"+a3);
+        kiir("Az 3. állítás!"+a2);
         kiir("Melyik: ");
-        valasz = sc.nextLine();
-        kiir(valasz);
+      
         kiir("A válasz jó | rossz");
     }
 
