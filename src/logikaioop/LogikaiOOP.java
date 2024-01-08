@@ -1,4 +1,3 @@
-
 package logikaioop;
 
 public class LogikaiOOP {
@@ -11,5 +10,5 @@ public class LogikaiOOP {
         System.out.println("Melyik: ");
         System.out.println("A válasz jó | rossz");
     }
-    
+
 }
