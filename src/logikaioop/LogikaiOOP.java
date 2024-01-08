@@ -1,9 +1,11 @@
 package logikaioop;
 
+import java.util.Scanner;
+
 public class LogikaiOOP {
 
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
         String valasz;
         Lada a1 = new Lada("Alma", "arany", true);
         kiir("Leírás");
@@ -14,7 +16,7 @@ public class LogikaiOOP {
         kiir("" + a3.toString());
 
         kiir("Melyik: ");
-
+        valasz = sc.nextLine();
         kiir("A válasz jó | rossz");
     }
 
