@@ -6,12 +6,12 @@ public class LogikaiOOP {
 
 
 //        String valasz;
-        Allitas a1 = new Allitas("1 alma van");
+        Lada a1 = new Lada("1 alma van","fem",true);
         kiir("Leírás");
         kiir("" + a1.toString());
-        Allitas a2 = new Allitas("2 alma van");
+        Lada a2 = new Lada("2 alma van","fa",false);
         kiir("" + a2.toString());
-        Allitas a3 = new Allitas("3 alma van");
+        Lada a3 = new Lada("3 alma van","arany",true);
         kiir("" + a3.toString());
 
         kiir("Melyik: ");
