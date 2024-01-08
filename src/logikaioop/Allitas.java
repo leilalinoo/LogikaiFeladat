@@ -1,41 +1,45 @@
+
 package logikaioop;
 
 public class Allitas {
-    String allitas,allitas2,allitas3;
-
-    public Allitas(String allitas, String allitas2, String allitas3) {
-        this.allitas = allitas;
-        this.allitas2 = allitas2;
-        this.allitas3 = allitas3;
-    }
+    String allitas;
+    String valasz;
+    static int sorszam =0;
 
     public String getAllitas() {
         return allitas;
     }
 
-    public String getAllitas2() {
-        return allitas2;
+
+    public static int getSorszam() {
+        return sorszam;
     }
 
-    public String getAllitas3() {
-        return allitas3;
+    public Allitas(String allitas) {
+        this.allitas = allitas;
+        this.valasz = "2";
+        sorszam++;
+
     }
 
     public void setAllitas(String allitas) {
         this.allitas = allitas;
     }
 
-    public void setAllitas2(String allitas2) {
-        this.allitas2 = allitas2;
-    }
+    public String getValasz() {
+        return valasz;
 
-    public void setAllitas3(String allitas3) {
-        this.allitas3 = allitas3;
     }
 
     @Override
     public String toString() {
-        return "Allitas{" + "allitas=" + allitas + ", allitas2=" + allitas2 + ", allitas3=" + allitas3 + '}';
+
+        return "Allitas{" + "sorszám= " + sorszam +"\tallitas=" + allitas +'}';
     }
+
+  
     
+
+   
+
 }
