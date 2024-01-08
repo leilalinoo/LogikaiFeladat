@@ -1,6 +1,6 @@
 package logikaioop;
 
-import java.util.Scanner;
+
 
 public class LogikaiOOP {
 
@@ -8,9 +8,10 @@ public class LogikaiOOP {
 
 
     
-
+       new Bekeres().run();
     }
 
-    
+
+
 
 }
