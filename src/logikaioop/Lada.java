@@ -1,9 +1,11 @@
+
 package logikaioop;
 
 public class Lada {
 
     private String allitas, anyag;
     private boolean kincs;
+
 
     public Lada(String allitas, String anyag, boolean kincs) {
         this.allitas = allitas;
@@ -37,8 +39,14 @@ public class Lada {
 
     @Override
     public String toString() {
-        return "Lada{" + "allitas=" + allitas + ", anyag=" + anyag + ", kincs=" + kincs + '}';
-    }
 
+        return "Lada{" + "allitas=" + allitas + ", \tanyag=" + anyag + ", \tkincs=" + kincs + '}';
+    }
+   
+   
+
+  
     
+
+
 }
