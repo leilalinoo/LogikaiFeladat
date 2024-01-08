@@ -3,19 +3,23 @@ package logikaioop;
 public class LogikaiOOP {
 
     public static void main(String[] args) {
-        System.out.println("Leírás");
-        Allitas all1 = new Allitas("a niki danda");
-        System.out.println(all1.allitas() + "   " + all1.getAllitas());
 
-        Allitas all2 = new Allitas("a loki fogyatékos");
-        System.out.println(all2.allitas() + "   " + all2.getAllitas());
 
-        Allitas all3 = new Allitas("a loki fs");
-        System.out.println(all3.allitas() + "   " + all3.getAllitas());
+        String valasz;
+        Allitas a1 = new Allitas("1 alma van");
+        kiir("Leírás");
+        kiir("" + a1.toString());
+        Allitas a2 = new Allitas("2 alma van");
+        kiir("" + a2.toString());
+        Allitas a3 = new Allitas("3 alma van");
+        kiir("" + a3.toString());
 
-        System.out.println("Melyik: ");
-        System.out.println("A válasz jó | rossz");
+        kiir("Melyik: ");
 
+        kiir("A válasz jó | rossz");
     }
 
+    private static void kiir(String leiras) {
+        System.out.println(leiras);
+    }
 }
