@@ -25,7 +25,7 @@ public class Bekeres {
         kiir("" + a2.toString());
         Lada a3 = new Lada("szilva", "gyémánt", true);
         kiir("" + a3.toString());
-        bekeres();
-        kiir("A válasz jó | rossz");
+        String valasz = bekeres();
+        kiir("A válasz jó | rossz ---> " + a1.eredmeny(valasz));
     }
 }
