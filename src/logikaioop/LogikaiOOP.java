@@ -1,20 +1,20 @@
 package logikaioop;
 
-
 public class LogikaiOOP {
 
     public static void main(String[] args) {
-       
+
         String valasz;
         Allitas a1 = new Allitas("1 alma van");
-        Allitas a2 = new Allitas("2 alma van");
-        Allitas a3 = new Allitas("3 alma van");
         kiir("Leírás");
-        kiir("Az 1. állítás!"+a1);
-        kiir("Az 2. állítás!"+a3);
-        kiir("Az 3. állítás!"+a2);
+        kiir("" + a1.toString());
+        Allitas a2 = new Allitas("2 alma van");
+        kiir("" + a2.toString());
+        Allitas a3 = new Allitas("3 alma van");
+        kiir("" + a3.toString());
+
         kiir("Melyik: ");
-      
+
         kiir("A válasz jó | rossz");
     }
 

@@ -4,7 +4,7 @@ package logikaioop;
 public class Allitas {
     String allitas;
     String valasz;
-    static int sorszam;
+    static int sorszam =0;
 
     public String getAllitas() {
         return allitas;
@@ -30,9 +30,10 @@ public class Allitas {
 
     @Override
     public String toString() {
-        return "Allitas{" + "allitas=" + allitas + '}';
+        return "Allitas{" + "sorszám= " + sorszam +"\tallitas=" + allitas +'}';
     }
 
+  
     
 
    
