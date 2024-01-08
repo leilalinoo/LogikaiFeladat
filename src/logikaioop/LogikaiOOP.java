@@ -10,8 +10,8 @@ public class LogikaiOOP {
         System.out.printf("Az 1. állítás! "+a.allitas);
         System.out.printf("\nAz 2. állítás! "+a.allitas2);
         System.out.printf("\nAz 3. állítás! "+a.allitas3);
-//        System.out.println("\nMelyik: ");
-//        System.out.println("A válasz jó | rossz");
+        System.out.println("Melyik: ");
+        System.out.println("A válasz jó | rossz");
     }
     
 }
