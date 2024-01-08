@@ -5,12 +5,12 @@ public class LogikaiOOP {
     public static void main(String[] args) {
 
         String valasz;
-        Allitas a1 = new Allitas("1 alma van");
+        Lada a1 = new Lada("Alma", "arany", true);
         kiir("Leírás");
         kiir("" + a1.toString());
-        Allitas a2 = new Allitas("2 alma van");
+        Lada a2 = new Lada("szőlő", "fa", false);
         kiir("" + a2.toString());
-        Allitas a3 = new Allitas("3 alma van");
+        Lada a3 = new Lada("szilva", "gyémánt", true);
         kiir("" + a3.toString());
 
         kiir("Melyik: ");
