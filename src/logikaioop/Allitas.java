@@ -6,12 +6,12 @@ public class Allitas {
     private static int sorszam = 0;
     
     public Allitas(String allitas) {
-        sorszam ++;
+        sorszam++;
         this.allitas = allitas;
     }
     
     public String allitas(){
-        return "A(z) "+getSorszam()+". állítás!";
+        return "A(z) "+sorszam+". állítás!";
     }
 
     public String getAllitas() {
