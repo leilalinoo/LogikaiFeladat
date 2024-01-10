@@ -9,7 +9,7 @@ public class Lada {
         this.allitas = allitas;
         this.anyag = anyag;
         this.kincs = kincs;
-        this.valasz = "E";
+        this.valasz = "B";
     }
 
     public boolean eredmeny(String masik) {

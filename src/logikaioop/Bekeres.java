@@ -28,7 +28,7 @@ public class Bekeres {
         String valasz = bekeres();
         String v1 = "Megtaláltad a kincset!!";
         if ( !a2.eredmeny(valasz)) {
-            v1 = "Vesztettél, az ezüst láda átvert :(";
+            v1 = "Vesztettél, a bronz láda igazat szólt :(";
         }
         kiir(v1);
     }
