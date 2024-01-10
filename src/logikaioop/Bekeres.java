@@ -11,21 +11,25 @@ public class Bekeres {
     public static String bekeres() {
         Scanner sc = new Scanner(System.in);
         String valasz;
-        kiir("Melyik: ");
+        kiir("A helyes válasz: {A, E, B}");
         valasz = sc.nextLine();
         return valasz;
     }
 
     public static void run() {
 
-        Lada a1 = new Lada("Alma", "arany", true);
+        Lada a1 = new Lada("én rejtem a kincset!!", "Arany láda", false);
         kiir("Leírás");
-        kiir("" + a1.toString());
-        Lada a2 = new Lada("szőlő", "fa", false);
-        kiir("" + a2.toString());
-        Lada a3 = new Lada("szilva", "gyémánt", true);
-        kiir("" + a3.toString());
+        kiir("" + a1.megjelen());
+        Lada a2 = new Lada("nem én rejtem a kincset...", "Ezüst láda", true);
+        kiir("" + a2.megjelen());
+        Lada a3 = new Lada("az arany hazudik!!!", "Bronz láda", false);
+        kiir("" + a3.megjelen());
         String valasz = bekeres();
-        kiir("A válasz jó | rossz ---> " + a1.eredmeny(valasz));
+        String v1 = "Megtaláltad a kincset!!";
+        if ( !a2.eredmeny(valasz)) {
+            v1 = "Vesztettél, az ezüst láda átvert :(";
+        }
+        kiir(v1);
     }
 }
