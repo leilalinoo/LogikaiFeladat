@@ -11,7 +11,8 @@ public class Bekeres {
     public static String bekeres() {
         Scanner sc = new Scanner(System.in);
         String valasz;
-        kiir("A kincs valós helyzete: {A, E, B}");
+        kiir("Minden láda egy-egy állítást tartalmaz, de csak egy mond igazat."
+                + "\n A kincs valós helyzete: {A, E, B}");
         valasz = sc.nextLine();
         return valasz;
     }
