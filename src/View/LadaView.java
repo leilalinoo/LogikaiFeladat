@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LadaView {
     
-     private static void kiir(String leiras) {
+     public static void kiir(String leiras) {
         System.out.println(leiras);
     }
 
