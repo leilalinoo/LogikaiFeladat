@@ -11,7 +11,8 @@ public class Bekeres {
     public static String bekeres() {
         Scanner sc = new Scanner(System.in);
         String valasz;
-        kiir("A helyes válasz: {A, E, B}");
+        kiir("Minden láda egy-egy állítást tartalmaz, de csak egy mond igazat."
+                + "\n A kincs valós helyzete: {A, E, B}");
         valasz = sc.nextLine();
         return valasz;
     }
@@ -27,8 +28,10 @@ public class Bekeres {
         kiir("" + a3.megjelen());
         String valasz = bekeres();
         String v1 = "Megtaláltad a kincset!!";
-        if (!a2.eredmeny(valasz)) {
-            v1 = "Vesztettél, a bronz láda igazat szólt :(";
+
+        if ( !a2.eredmeny(valasz)) {
+            v1 = "Vesztettél, az ezüst ládában van a kincs :(";
+
         }
         kiir(v1);
     }
