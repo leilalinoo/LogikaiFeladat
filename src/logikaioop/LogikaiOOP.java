@@ -4,7 +4,7 @@ public class LogikaiOOP {
 
     public static void main(String[] args) {
 
-        new Bekeres().run();
+  //      new Bekeres().run();
 
     }
 }
