@@ -9,7 +9,7 @@ public class Lada {
         this.allitas = allitas;
         this.anyag = anyag;
         this.kincs = kincs;
-        this.valasz = "Alma";
+        this.valasz = "E";
     }
 
     public boolean eredmeny(String masik) {
@@ -41,10 +41,9 @@ public class Lada {
 
     }
 
-    @Override
-    public String toString() {
-
-        return "Lada{" + "allitas=" + allitas + ", \tanyag=" + anyag + ", \tkincs=" + kincs + '}';
+    public String megjelen(){
+       String ki = anyag+": \""+allitas+"\"" ;
+       return ki;
     }
 
 }
