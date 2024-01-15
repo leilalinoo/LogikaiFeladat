@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Bekeres {
 
+
 //    private static void kiir(String leiras) {
 //        System.out.println(leiras);
 //    }
@@ -29,4 +30,5 @@ public class Bekeres {
 ////        }
 ////        kiir(v1);
 //    }
+
 }
